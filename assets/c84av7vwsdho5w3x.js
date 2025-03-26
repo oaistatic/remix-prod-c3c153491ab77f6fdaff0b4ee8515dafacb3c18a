@@ -1,0 +1,2 @@
+import{f9 as h,fe as p}from"./njq6ygky3ttysgdk.js";import{A,f as m,b as C,r as e}from"./fs6h2trisr1juto6.js";const g=h(function(){const s=A(),o=m(),c=C(),[a,f]=e.useState(!1),[u,d]=e.useState(!1),t=s.accountId;e.useEffect(()=>{let n=!1;if(t&&!a){const i=()=>{if(n)return;const{updatedAccount:l}=p(c,t);l?f(!0):setTimeout(i,100)};i()}return()=>{n=!0}},[t,a,c]);const r=!t||a;return e.useEffect(()=>{!u&&r&&(o(s.toPath,{replace:!0}),d(!0))},[u,r,s.toPath,o]),null});export{g as default};
+//# sourceMappingURL=c84av7vwsdho5w3x.js.map
